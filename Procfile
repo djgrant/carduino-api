@@ -1,1 +1,1 @@
-VimCrypt~01!D>ÆK+Â#"í•ðýë«
+web: node .app.js
