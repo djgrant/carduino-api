@@ -8,6 +8,11 @@ module.exports.adapters = {
 	//'default': 'disk',
 	'default': 'mongo',
 
+	mongo: {
+    module   : 'sails-mongo',
+    url      : process.env.MONGOLAB_URI || 'mongodb://localhost:27017/sails'
+  },
+
 	// In-memory adapter for DEVELOPMENT ONLY
 	// (data is NOT preserved when the server shuts down)
 	memory: {
